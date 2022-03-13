@@ -1,0 +1,81 @@
+h1 {
+    font-size: 2rem;
+    font-weight: 800;
+    margin-left: 5px;
+}
+
+.header .header-container {
+    display: flex;
+    padding: 45px 30px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.header .header-container div{
+    display: flex;
+    align-items: center;   
+}
+
+.header .header-container nav ul{
+    display: flex;
+}
+
+.header .header-container nav ul li a {
+    padding: 10px 30px;
+    transition: 0.3s;
+}
+
+.header .header-container nav ul li a:hover {
+    background-color: hsla(108, 52%, 51%, 1);
+    width: 55px;
+    height: 40px;
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+.header nav ul .cadastro{
+    background-color: #5BC241;
+    width: 127px;
+    height: 40px;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+
+
+@media (max-width: 375px) {
+    h1 {
+    font-size: 800;
+    font-size: 4rem;
+    margin-left: 8px;
+    }
+
+    .header .header-container {
+        display: block;
+    }
+
+    .header .header-container div {
+        justify-content: center;
+        margin-bottom: 100px;
+    }
+
+    .header .header-container nav ul {
+        display: block;
+        text-align: center;
+    }
+
+    .header .header-container nav ul li {
+        margin-bottom: 50px;
+    }
+
+    .header .header-container nav ul li a {
+        font-weight: 400;
+        font-size: 4rem;
+    }
+
+    .header .header-container nav ul .cadastro {
+        font-weight: 300;
+        font-size: 1.8rem;
+    }
+}
